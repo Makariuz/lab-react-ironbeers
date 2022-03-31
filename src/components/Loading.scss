@@ -1,0 +1,23 @@
+.container-load{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+        span{
+
+            font-size: 1rem;
+            color: white;
+    
+            animation: rotation .4s infinite;
+        }
+    
+        @keyframes rotation {
+            50% {transform: rotate(180deg);}
+            100% {transform: rotate(360deg);}
+            
+        }
+
+
+
+}
